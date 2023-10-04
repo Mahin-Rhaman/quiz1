@@ -4,17 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:gravity="center"
-    tools:context=".NextByArtActivity">
-
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
 
     <TextView
-        android:id="@+id/nextByArtTV"
-        android:gravity="center"
+        android:id="@+id/questionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello "
-        />
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
+
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RadioButton
+            android:id="@+id/option1RadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_radio_background"
+            android:button="@drawable/custom_radio_button"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="8dp"
+            android:text="option1 " />
+
+        <RadioButton
+            android:id="@+id/option2RadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_radio_background"
+            android:button="@drawable/custom_radio_button"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="8dp"
+            android:text="option2 " />
+
+
+        <RadioButton
+            android:id="@+id/option3RadioBtn"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_radio_background"
+            android:button="@drawable/custom_radio_button"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="8dp"
+            android:text="option3 " />
+
+
+        <RadioButton
+            android:id="@+id/option4RadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_radio_background"
+            android:button="@drawable/custom_radio_button"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="8dp"
+            android:text="option4 " />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/nextQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="16dp"
+        android:text="Next Question" />
+
 
 </LinearLayout>
 
