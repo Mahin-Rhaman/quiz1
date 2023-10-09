@@ -158,7 +158,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/art"
+            android:id="@+id/textView_by_art"
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:layout_marginLeft="32dp"
@@ -197,6 +197,7 @@
                 />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/textView_by_genaral"
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:layout_marginLeft="32dp"

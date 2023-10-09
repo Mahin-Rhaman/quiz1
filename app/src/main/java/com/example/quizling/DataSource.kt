@@ -10,49 +10,49 @@ object DataSource {
             0
         ),
         QuizQuestion(
-            "What is the capital of France?",
-            listOf("Paris", "Berlin", "London", "Rome"),
-            0
+            "What is the most common programming language used for web development?",
+            listOf("Java", "C++", "Python", "JavaScript"),
+            3
         ),
         QuizQuestion(
-            "What is the largest planet in our solar system?",
-            listOf("Mars", "Venus", "Jupiter", "Saturn"),
+            "Which company developed the Android operating system?",
+            listOf("Microsoft", "Apple", "Google", "Samsung"),
             2
         ),
         QuizQuestion(
-            "What is the capital of France?",
-            listOf("Paris", "Berlin", "London", "Rome"),
+            "What does 'URL' stand for?",
+            listOf("Uniform Resource Locator", "Universal Remote Link", "User Registration Language", "Ultra-Reliable Link"),
             0
         ),
         QuizQuestion(
-            "What is the largest planet in our solar system?",
-            listOf("Mars", "Venus", "Jupiter", "Saturn"),
+            "Which programming language is often used for data analysis and machine learning?",
+            listOf("Java", "C#", "Python", "Ruby"),
             2
         ),
         QuizQuestion(
-            "Who painted the Mona Lisa?",
-            listOf("Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"),
+            "What does 'HTML' stand for?",
+            listOf("Hyperlink Text Markup Language", "High-Level Text Markup Language", "Hypertext Transfer Markup Language", "Hypermedia Text Management Language"),
+            2
+        ),
+        QuizQuestion(
+            "What technology is used to store and manage data in a structured way in databases?",
+            listOf("XML", "JSON", "SQL", "HTML"),
+            2
+        ),
+        QuizQuestion(
+            "Which networking protocol is used for sending emails?",
+            listOf("HTTP", "FTP", "SMTP", "TCP"),
+            2
+        ),
+        QuizQuestion(
+            "What is the term for malicious software designed to gain unauthorized access or cause damage to computer systems?",
+            listOf("Virus", "Worm", "Trojan Horse", "Spyware"),
             0
         ),
         QuizQuestion(
-            "Which country is known as the Land of the Rising Sun?",
-            listOf("China", "Japan", "Korea", "Thailand"),
-            1
-        ),
-        QuizQuestion(
-            "What is the chemical symbol for water?",
-            listOf("Wa", "H2O", "Wt", "Ho"),
-            1
-        ),
-        QuizQuestion(
-            "Which planet is known as the Red Planet?",
-            listOf("Venus", "Mars", "Jupiter", "Mercury"),
-            1
-        ),
-        QuizQuestion(
-            "Who wrote the play 'Romeo and Juliet'?",
-            listOf("William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"),
-            0
+            "What is the name of the open-source web server software developed by the Apache Software Foundation?",
+            listOf("Nginx", "Tomcat", "IIS", "Apache HTTP Server"),
+            3
         ),
         QuizQuestion(
             "What is the symbol for the chemical element 'Iron'?",
